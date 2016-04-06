@@ -5,8 +5,9 @@ source util.sh
 echo "KATA 1 - STASHING FILES
 
 SCENARIO DESCRIPTION:
-You made local changes to some files. Pull --rebase remote
-changes without committing your local changes
+You made local changes to some files. Stash your local changes,
+then pull remote changes (with a --rebase). After that, unstash the change,
+commit and push it.
 
 GOAL:
 - Get upstream commits

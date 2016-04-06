@@ -8,7 +8,7 @@
 
 - Fork this repo
 - Clone it on your machine
-- Run `./start.sh` and follow the instructions
+- Run `./start` and follow the instructions
 
 ## How it works
 Each kata exposes you to a different scenario. Johnny is an imaginary developer that makes changes to simulate real life collaboration. You'll occasionally run into commit conflicts with him.
@@ -36,6 +36,7 @@ git stash pop
 
 ### Kata 2 - Pull
 ```
+git commit -am "My change"
 git pull
 git commit -am "Merging conflicts"
 git push
@@ -43,6 +44,7 @@ git push
 
 ### Kata 3 - Pull with rebase
 ```
+git commit -am "My change"
 git pull --rebase
 git add .
 git rebase --continue
